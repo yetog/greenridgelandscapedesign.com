@@ -1,0 +1,267 @@
+{
+  "brand": {
+    "name": "GreenRidge Landscape & Design",
+    "tagline": "Landscaping & Outdoor Renovation in San Jose & the South Bay",
+    "phone": "(408) 512-3074",
+    "phoneRaw": "4085123074",
+    "email": "greenridgelandscapers@gmail.com",
+    "address": "2557 Bergman Ct",
+    "city": "San Jose",
+    "state": "CA",
+    "zip": "95121",
+    "hours": "Mon–Sat 8:00 AM – 6:00 PM",
+    "domain": "www.greenridgelandscapedesign.com",
+    "zapierWebhook": "",
+    "font": "Inter",
+    "forms": {
+      "notifyEmail": "greenridgelandscapers@gmail.com",
+      "notifyPhone": "5167121231"
+    },
+    "schemaType": "LandscapingBusiness",
+    "footerTagline": "San Jose's landscaping & outdoor renovation specialists. Creating modern, functional outdoor spaces throughout the South Bay.",
+    "heroSubtext": "Modern landscaping and outdoor living spaces designed to elevate homes across San Jose and the South Bay.",
+    "servicesHeadline": "Complete Landscaping Services for the South Bay",
+    "facebook": "",
+    "instagram": "",
+    "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.5!2d-121.8!3d37.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSan%20Jose%2C%20CA!5e0!3m2!1sen!2sus!4v1710000000000",
+    "primaryColor": "#2C4A1E",
+    "primaryDark": "#1E3314",
+    "secondaryColor": "#C8B89A",
+    "secondaryDark": "#B5A687",
+    "accentColor": "#F5F0E8",
+    "textColor": "#1A1A1A",
+    "industry": "Landscaping",
+    "industryLower": "landscaping",
+    "heroSlides": [
+      "/images/landscape-design.png",
+      "/images/backyard.png",
+      "/images/patio-greenridge.png",
+      "/images/outdoor-living.png"
+    ]
+  },
+  "services": [
+    {
+      "slug": "landscape-design-installation",
+      "name": "Landscape Design & Installation",
+      "shortName": "Landscape Design",
+      "icon": "📐",
+      "image": "/images/landscape-design.png",
+      "description": "Custom landscape plans brought to life — from concept to final plant. Every design is tailored to your property, your lifestyle, and the California climate.",
+      "heroText": "Great outdoor spaces start with great design. GreenRidge develops comprehensive landscape plans for South Bay properties — then executes every detail with precision.",
+      "bullets": [
+        "On-site design consultation",
+        "Custom landscape plans and renderings",
+        "Plant selection and professional sourcing",
+        "Full landscape installation and grading",
+        "Irrigation and drainage coordination"
+      ]
+    },
+    {
+      "slug": "paver-installation",
+      "name": "Paver Installation",
+      "shortName": "Pavers",
+      "icon": "🧱",
+      "image": "/images/pavers-greenridge.png",
+      "description": "Premium natural stone and concrete paver surfaces for walkways, patios, and pool decks. Built to last in the California sun without shifting or cracking.",
+      "heroText": "Pavers done right — from design to final seal. GreenRidge installs premium paver systems across the South Bay with craftsmanship and materials that stand the test of time.",
+      "bullets": [
+        "Walkway and garden path installation",
+        "Patio and outdoor floor systems",
+        "Pool deck paver installation",
+        "Step and landing construction",
+        "Polymeric sand finishing and professional sealing"
+      ]
+    },
+    {
+      "slug": "patio-installation",
+      "name": "Patio Installation",
+      "shortName": "Patios",
+      "icon": "☀️",
+      "image": "/images/patio-greenridge.png",
+      "description": "Thoughtfully designed outdoor living floors — built for entertaining, everyday use, and lasting curb appeal. We handle every detail from base prep to final seal.",
+      "heroText": "A well-designed patio changes how you experience your property. GreenRidge creates custom patios for South Bay homeowners who want beauty, functionality, and durability.",
+      "bullets": [
+        "Custom patio design and layout planning",
+        "Paver and natural stone installation",
+        "Steps, landings, and level transitions",
+        "Outdoor kitchen and fire feature prep",
+        "Drainage and lighting conduit planning"
+      ]
+    },
+    {
+      "slug": "driveway-installation",
+      "name": "Driveway Installation",
+      "shortName": "Driveways",
+      "icon": "🛤️",
+      "image": "/images/driveway.png",
+      "description": "Stunning, durable driveways that make a statement from the street. We work with pavers, asphalt borders, and custom edging for a finished, upscale look.",
+      "heroText": "Your driveway sets the tone before anyone reaches your front door. GreenRidge installs custom driveways that blend seamlessly with your landscape and elevate your property's value.",
+      "bullets": [
+        "Paver driveway design and installation",
+        "Decorative borders and edging",
+        "Drainage and grading solutions",
+        "Existing driveway removal and disposal",
+        "New construction and full replacements"
+      ]
+    },
+    {
+      "slug": "front-yard-landscaping",
+      "name": "Front Yard Landscaping",
+      "shortName": "Front Yard",
+      "icon": "🏡",
+      "image": "/images/front-yard.png",
+      "description": "First impressions matter. We design and install front yard landscapes that elevate your home's curb appeal with seasonal color, structure, and clean lines.",
+      "heroText": "Curb appeal is the first thing anyone notices. GreenRidge creates polished, well-designed front yard landscapes that make South Bay homes stand out on the block.",
+      "bullets": [
+        "Curb appeal design consultation",
+        "Custom planting and garden bed design",
+        "Walkway edging and border installation",
+        "Seasonal color and display plantings",
+        "Lawn restoration and sodding"
+      ]
+    },
+    {
+      "slug": "back-yard-landscaping",
+      "name": "Back Yard Landscaping",
+      "shortName": "Back Yard",
+      "icon": "🌿",
+      "image": "/images/backyard.png",
+      "description": "Turn your backyard into the retreat you've always wanted — custom planting beds, lawn restoration, trees, and borders designed around how you actually live.",
+      "heroText": "Your back yard should be a space you actually want to spend time in. GreenRidge designs and installs custom back yard landscapes for South Bay homeowners — built to look stunning and last for years.",
+      "bullets": [
+        "Custom landscape design consultation",
+        "Garden bed design and installation",
+        "Lawn grading and restoration",
+        "Privacy plantings and screening",
+        "Full back yard renovation packages"
+      ]
+    },
+    {
+      "slug": "outdoor-living-spaces",
+      "name": "Outdoor Living Spaces",
+      "shortName": "Outdoor Living",
+      "icon": "🔥",
+      "image": "/images/outdoor-living.png",
+      "description": "Full outdoor environments — pergolas, fire pits, outdoor kitchens, and custom seating. Designed and built so your backyard becomes a true extension of your home.",
+      "heroText": "Outdoor living is more than a trend — it's a lifestyle. GreenRidge designs and builds complete outdoor environments that become the most-used space on your property.",
+      "bullets": [
+        "Pergola and shade structure installation",
+        "Fire pit and outdoor fireplace builds",
+        "Outdoor kitchen and bar setup",
+        "Custom seating and entertaining areas",
+        "Ambient lighting integration"
+      ]
+    }
+  ],
+  "serviceAreas": [
+    { "slug": "san-jose", "name": "San Jose", "county": "Santa Clara", "nearbyAreas": ["Santa Clara", "Milpitas", "Campbell", "Los Gatos"] },
+    { "slug": "santa-clara", "name": "Santa Clara", "county": "Santa Clara", "nearbyAreas": ["San Jose", "Sunnyvale", "Cupertino", "Milpitas"] },
+    { "slug": "sunnyvale", "name": "Sunnyvale", "county": "Santa Clara", "nearbyAreas": ["Santa Clara", "Mountain View", "Cupertino", "Los Altos"] },
+    { "slug": "cupertino", "name": "Cupertino", "county": "Santa Clara", "nearbyAreas": ["Sunnyvale", "Santa Clara", "Saratoga", "Los Altos"] },
+    { "slug": "campbell", "name": "Campbell", "county": "Santa Clara", "nearbyAreas": ["San Jose", "Los Gatos", "Saratoga", "Santa Clara"] },
+    { "slug": "los-gatos", "name": "Los Gatos", "county": "Santa Clara", "nearbyAreas": ["Campbell", "Saratoga", "San Jose", "Monte Sereno"] },
+    { "slug": "saratoga", "name": "Saratoga", "county": "Santa Clara", "nearbyAreas": ["Los Gatos", "Cupertino", "Campbell", "Monte Sereno"] },
+    { "slug": "milpitas", "name": "Milpitas", "county": "Santa Clara", "nearbyAreas": ["San Jose", "Santa Clara", "Fremont", "Newark"] },
+    { "slug": "mountain-view", "name": "Mountain View", "county": "Santa Clara", "nearbyAreas": ["Sunnyvale", "Palo Alto", "Los Altos", "Cupertino"] },
+    { "slug": "palo-alto", "name": "Palo Alto", "county": "Santa Clara", "nearbyAreas": ["Mountain View", "Menlo Park", "Los Altos", "Stanford"] },
+    { "slug": "fremont", "name": "Fremont", "county": "Alameda", "nearbyAreas": ["Milpitas", "Newark", "Union City", "San Jose"] },
+    { "slug": "morgan-hill", "name": "Morgan Hill", "county": "Santa Clara", "nearbyAreas": ["San Jose", "Gilroy", "Los Gatos", "Campbell"] },
+    { "slug": "los-altos", "name": "Los Altos", "county": "Santa Clara", "nearbyAreas": ["Mountain View", "Palo Alto", "Sunnyvale", "Cupertino"] },
+    { "slug": "menlo-park", "name": "Menlo Park", "county": "San Mateo", "nearbyAreas": ["Palo Alto", "Redwood City", "Atherton", "East Palo Alto"] },
+    { "slug": "redwood-city", "name": "Redwood City", "county": "San Mateo", "nearbyAreas": ["Menlo Park", "San Carlos", "Belmont", "Atherton"] }
+  ],
+  "reviews": [
+    {
+      "name": "Michael T.",
+      "location": "San Jose, CA",
+      "text": "GreenRidge completely transformed our backyard into a space we actually enjoy spending time in. The design felt modern, clean, and exactly the California outdoor vibe we wanted.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah L.",
+      "location": "Los Gatos, CA",
+      "text": "From the first meeting to the final walkthrough, the entire process felt organized and professional. The patio, lighting, and landscaping came out beautiful.",
+      "rating": 5
+    },
+    {
+      "name": "Daniel R.",
+      "location": "Cupertino, CA",
+      "text": "We interviewed several landscaping companies and GreenRidge stood out immediately. Their attention to detail and overall design vision made a huge difference in the final result.",
+      "rating": 5
+    },
+    {
+      "name": "Emily K.",
+      "location": "Saratoga, CA",
+      "text": "Our backyard now feels like an extension of the house. The turf, pavers, and outdoor seating area completely changed how we use the space. Couldn't be happier with the outcome.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What areas do you serve?",
+      "a": "We serve homeowners throughout San Jose and the South Bay Area — including Los Gatos, Saratoga, Cupertino, Sunnyvale, Santa Clara, Mountain View, Palo Alto, and surrounding communities."
+    },
+    {
+      "q": "How do I get a free estimate?",
+      "a": "You can call or text us at (408) 512-3074 or submit the contact form on our website to schedule a free estimate. We'll discuss your project goals, take a look at the space, and provide recommendations based on your vision and budget."
+    },
+    {
+      "q": "What landscaping services do you offer?",
+      "a": "GreenRidge Landscape & Design specializes in custom landscaping, patios, pavers, artificial turf, outdoor lighting, planting, backyard renovations, and outdoor living spaces designed for modern California homes."
+    },
+    {
+      "q": "What's the difference between landscaping and lawn care?",
+      "a": "Lawn care usually focuses on maintenance services like mowing, edging, and fertilizing. Landscaping is more focused on design and installation — including patios, pavers, turf, planting, lighting, drainage, and complete outdoor renovations."
+    },
+    {
+      "q": "When's the best time to start a landscaping project?",
+      "a": "Spring and fall are the most popular seasons, but we work year-round. We recommend booking at least 1–2 weeks out to secure your spot on the schedule."
+    },
+    {
+      "q": "How long does a landscaping project usually take?",
+      "a": "Project timelines depend on the size and complexity of the work. Smaller projects may take a few days, while larger outdoor renovations can take several weeks from preparation to final installation."
+    },
+    {
+      "q": "Is artificial turf a good option in San Jose?",
+      "a": "Yes. Artificial turf is a popular option throughout San Jose because it stays green year-round, reduces water usage, and requires much less maintenance than natural grass."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/landscape-design.png",
+      "alt": "Full property landscape design and installation in San Jose",
+      "label": "Landscape Design & Installation",
+      "icon": "📐"
+    },
+    {
+      "src": "/images/outdoor-living.png",
+      "alt": "Outdoor living space with pergola and paver patio",
+      "label": "Outdoor Living Space",
+      "icon": "🔥"
+    },
+    {
+      "src": "/images/driveway.png",
+      "alt": "Paver driveway installation with front yard landscaping",
+      "label": "Paver Driveway",
+      "icon": "🛤️"
+    },
+    {
+      "src": "/images/backyard.png",
+      "alt": "Back yard landscaping renovation with patio",
+      "label": "Back Yard Renovation",
+      "icon": "🌿"
+    },
+    {
+      "src": "/images/front-yard.png",
+      "alt": "Front yard landscaping with custom beds and walkway",
+      "label": "Front Yard Landscaping",
+      "icon": "🏡"
+    },
+    {
+      "src": "/images/patio-greenridge.png",
+      "alt": "Custom patio with outdoor seating area",
+      "label": "Patio Installation",
+      "icon": "☀️"
+    }
+  ]
+}

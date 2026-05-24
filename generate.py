@@ -158,10 +158,10 @@ def footer():
         f'<li><a href="/services/{s["slug"]}/">{s["name"]}</a></li>'
         for s in SERVICES
     )
-    nassau = [a for a in AREAS if a["county"] == "Nassau"][:6]
-    suffolk = [a for a in AREAS if a["county"] == "Suffolk"][:6]
-    nassau_links = "\n".join(f'<li><a href="/service-areas/{a["slug"]}/">{a["name"]}</a></li>' for a in nassau)
-    suffolk_links = "\n".join(f'<li><a href="/service-areas/{a["slug"]}/">{a["name"]}</a></li>' for a in suffolk)
+    santa_clara = [a for a in AREAS if a["county"] == "Santa Clara"][:6]
+    san_mateo = [a for a in AREAS if a["county"] == "San Mateo"][:6]
+    santa_clara_links = "\n".join(f'<li><a href="/service-areas/{a["slug"]}/">{a["name"]}</a></li>' for a in santa_clara)
+    san_mateo_links = "\n".join(f'<li><a href="/service-areas/{a["slug"]}/">{a["name"]}</a></li>' for a in san_mateo)
     return f"""
 <footer class="site-footer">
   <div class="footer-main">
@@ -185,12 +185,12 @@ def footer():
         <ul>{service_links}</ul>
       </div>
       <div class="footer-col">
-        <h4>Nassau County</h4>
-        <ul>{nassau_links}<li><a href="/service-areas/">All Areas →</a></li></ul>
+        <h4>Santa Clara County</h4>
+        <ul>{santa_clara_links}<li><a href="/service-areas/">All Areas →</a></li></ul>
       </div>
       <div class="footer-col">
-        <h4>Suffolk County</h4>
-        <ul>{suffolk_links}<li><a href="/service-areas/">All Areas →</a></li></ul>
+        <h4>San Mateo County</h4>
+        <ul>{san_mateo_links}<li><a href="/service-areas/">All Areas →</a></li></ul>
       </div>
     </div>
   </div>
@@ -568,7 +568,7 @@ def make_homepage():
     <h2>Local Crew. Serious Craftsmanship.</h2>
     <p>Not a franchise - a locally owned team based in San Jose. Every project gets personal attention from people who take pride in their work.</p>
     <ul class="check-list">
-      <li>Certified &amp; insured in New York State</li>
+      <li>Certified &amp; insured in California</li>
       <li>Transparent pricing - detailed quote before work begins</li>
       <li>Custom designs built around your property and budget</li>
       <li>100% satisfaction guarantee on every job</li>
@@ -600,7 +600,7 @@ def make_homepage():
     <div class="section-header">
       <span class="eyebrow">Service Areas</span>
       <h2>Serving All of the South Bay, CA</h2>
-      <p>We cover Nassau and Suffolk Counties. Don't see your city? Call us - we likely serve you.</p>
+      <p>We cover Santa Clara and San Mateo Counties. Don't see your city? Call us - we likely serve you.</p>
     </div>
     <div class="city-grid">
       {service_area_links()}
@@ -636,7 +636,7 @@ def make_homepage():
     <div class="blog-grid">
       <article class="blog-card">
         <h3>What Landscaping Zone Are You in and Why Does It Matter?</h3>
-        <p>Before you give up on your garden, learn about hardiness zones and how to choose plants that thrive in your specific the South Bay climate - and what our team recommends for Nassau &amp; Suffolk.</p>
+        <p>Before you give up on your garden, learn about hardiness zones and how to choose plants that thrive in your specific the South Bay climate - and what our team recommends for Santa Clara & San Mateo.</p>
         <a href="/blog/landscaping-zones/" class="read-more">Read More →</a>
       </article>
       <article class="blog-card">
@@ -708,7 +708,7 @@ def make_service_page(s):
   <div class="container content-sidebar-layout">
     <div class="content-main">
       <h2>Professional {s['name']} on the South Bay</h2>
-      <p>{s['description']} {NAME} has been serving {B['city']} and the South Bay for years, delivering reliable results for homeowners and businesses across Nassau and Suffolk Counties.</p>
+      <p>{s['description']} {NAME} has been serving {B['city']} and the South Bay for years, delivering reliable results for homeowners and businesses across Santa Clara and San Mateo Counties.</p>
       <h3>What's Included</h3>
       <ul class="check-list">{bullets}</ul>
       <h3>Why Choose {NAME}?</h3>
@@ -916,8 +916,8 @@ def make_city_page(area):
 # ─────────────────────────────────────────────────────────
 
 def make_areas_hub():
-    nassau = [a for a in AREAS if a["county"] == "Nassau"]
-    suffolk = [a for a in AREAS if a["county"] == "Suffolk"]
+    santa_clara = [a for a in AREAS if a["county"] == "Santa Clara"]
+    san_mateo = [a for a in AREAS if a["county"] == "San Mateo"]
     def area_cards(areas):
         return "\n".join(f"""
         <a href="/service-areas/{a['slug']}/" class="area-card">
@@ -928,7 +928,7 @@ def make_areas_hub():
     bc, bc_schema = breadcrumbs([("Home", "/"), ("Service Areas", None)])
     content = f"""{head(
         f"Landscaping Service Areas - the South Bay, CA | {NAME}",
-        f"{NAME} serves Nassau and Suffolk Counties on the South Bay. Click your city to see local landscaping services and get a free estimate.",
+        f"{NAME} serves Santa Clara and San Mateo Counties on the South Bay. Click your city to see local landscaping services and get a free estimate.",
         "/service-areas/",
         bc_schema
     )}
@@ -937,15 +937,15 @@ def make_areas_hub():
 <section class="page-hero">
   <div class="container">
     <h1>the South Bay Landscaping Service Areas</h1>
-    <p>{NAME} covers Nassau and Suffolk Counties. Select your city for local information and a free estimate.</p>
+    <p>{NAME} covers Santa Clara and San Mateo Counties. Select your city for local information and a free estimate.</p>
   </div>
 </section>
 <section class="section">
   <div class="container">
-    <h2>Nassau County</h2>
-    <div class="area-grid">{area_cards(nassau)}</div>
-    <h2 class="mt-4">Suffolk County</h2>
-    <div class="area-grid">{area_cards(suffolk)}</div>
+    <h2>Santa Clara County</h2>
+    <div class="area-grid">{area_cards(santa_clara)}</div>
+    <h2 class="mt-4">San Mateo County</h2>
+    <div class="area-grid">{area_cards(san_mateo)}</div>
     <p class="mt-4" style="color:var(--text-mid)">Don't see your city? <a href="tel:{PHONE_RAW}">Call us at {PHONE}</a> - we likely serve your area.</p>
   </div>
 </section>
@@ -991,10 +991,10 @@ def make_about():
       <div class="split-content">
         <span class="eyebrow">Who We Are</span>
         <h2>Built for the South Bay</h2>
-        <p>{NAME} is a locally owned landscaping and outdoor renovation company based at 64 Hilton Ave in San Jose, CA. We serve residential homeowners throughout Nassau and Suffolk Counties.</p>
+        <p>{NAME} is a locally owned landscaping and outdoor renovation company based at 2557 Bergman Ct, San Jose, CA. We serve residential homeowners throughout Santa Clara and San Mateo Counties.</p>
         <p>We're not a national franchise - every crew member is local, every estimate is honest, and every job is backed by our 100% satisfaction guarantee.</p>
         <ul class="check-list">
-          <li>Fully certified and insured in New York State</li>
+          <li>Fully certified and insured in California</li>
           <li>Locally owned - based in {B['city']}, CA</li>
           <li>Experienced crews with background checks</li>
           <li>100% satisfaction guarantee</li>
@@ -1272,15 +1272,15 @@ def make_blog_pages():
             "title": "What Landscaping Zone Are You in - and Why Does It Matter?",
             "desc": "Learn about USDA hardiness zones and how to choose plants that thrive on the South Bay. Tips from GreenRidge Landscape & Design in San Jose, CA.",
             "body": f"""
-<p>If your plants keep dying or struggling through the South Bay winters, hardiness zones might be the answer. the South Bay falls primarily in <strong>USDA Zone 7a–7b</strong> - which means cold winters (as low as 0–10°F) and warm, humid summers. Knowing your zone changes what you plant and when you plant it.</p>
+<p>If your plants keep dying or struggling through California weather, hardiness zones might be the answer. the South Bay falls primarily in <strong>USDA Zone 9b-10a</strong> - which means mild winters (as low as 30-40°F) and warm, humid summers. Knowing your zone changes what you plant and when you plant it.</p>
 <h2>What Zone Is the South Bay?</h2>
-<p>Most of Nassau and Suffolk Counties fall in Zone 7a or 7b. The North Shore tends to be slightly cooler; the South Shore and coastal areas are a bit warmer. This matters for anything you're keeping year-round - trees, shrubs, perennials, and ornamental grasses all have zone requirements.</p>
+<p>Most of Santa Clara and San Mateo Counties fall in Zone 9b or 10a. The inland areas tend to be slightly warmer; coastal areas and coastal areas are a bit warmer. This matters for anything you're keeping year-round - trees, shrubs, perennials, and ornamental grasses all have zone requirements.</p>
 <h2>Best Plants for the South Bay Landscapes</h2>
 <ul>
-  <li><strong>Ornamental grasses</strong> - drought-tolerant and low-maintenance in Zone 7</li>
+  <li><strong>Ornamental grasses</strong> - drought-tolerant and low-maintenance in Zone 9-10</li>
   <li><strong>Knockout roses</strong> - disease-resistant and reliable in this climate</li>
-  <li><strong>Boxwood</strong> - classic hedge material that handles the South Bay winters well</li>
-  <li><strong>Japanese maples</strong> - thrive in Zone 7, stunning fall color</li>
+  <li><strong>Boxwood</strong> - classic hedge material that handles California weather well</li>
+  <li><strong>Japanese maples</strong> - thrive in Zone 9-10, stunning fall color</li>
   <li><strong>Blue Star juniper</strong> - evergreen, low-maintenance, great for borders</li>
 </ul>
 <h2>What Our Team Recommends</h2>

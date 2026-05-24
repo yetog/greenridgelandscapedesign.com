@@ -9,7 +9,7 @@
     "city": "San Jose",
     "state": "CA",
     "zip": "95121",
-    "hours": "Mon–Sat 8:00 AM – 6:00 PM",
+    "hours": "Mon-Sat 8:00 AM - 6:00 PM",
     "domain": "www.greenridgelandscapedesign.com",
     "zapierWebhook": "",
     "font": "Inter",
@@ -18,7 +18,7 @@
       "notifyPhone": "5167121231"
     },
     "schemaType": "LandscapingBusiness",
-    "footerTagline": "San Jose's landscaping & outdoor renovation specialists. Creating modern, functional outdoor spaces throughout the South Bay.",
+    "footerTagline": "San Jose's premier landscaping and outdoor renovation specialists. Creating modern, functional outdoor spaces throughout the South Bay.",
     "heroSubtext": "Modern landscaping and outdoor living spaces designed to elevate homes across San Jose and the South Bay.",
     "servicesHeadline": "Complete Landscaping Services for the South Bay",
     "facebook": "",
@@ -33,10 +33,10 @@
     "industry": "Landscaping",
     "industryLower": "landscaping",
     "heroSlides": [
-      "/images/landscape-design.png",
-      "/images/backyard.png",
-      "/images/patio-greenridge.png",
-      "/images/outdoor-living.png"
+      "/images/landscape-design.jpg",
+      "/images/backyard.jpg",
+      "/images/patio-greenridge.jpg",
+      "/images/outdoor-living.jpg"
     ]
   },
   "services": [
@@ -45,9 +45,9 @@
       "name": "Landscape Design & Installation",
       "shortName": "Landscape Design",
       "icon": "📐",
-      "image": "/images/landscape-design.png",
-      "description": "Custom landscape plans brought to life — from concept to final plant. Every design is tailored to your property, your lifestyle, and the California climate.",
-      "heroText": "Great outdoor spaces start with great design. GreenRidge develops comprehensive landscape plans for South Bay properties — then executes every detail with precision.",
+      "image": "/images/landscape-design.jpg",
+      "description": "Custom landscape plans brought to life, from initial concept to final installation. Every design is tailored to your property, lifestyle, and the California climate.",
+      "heroText": "Great outdoor spaces start with great design. GreenRidge develops comprehensive landscape plans for South Bay properties and executes every detail with precision.",
       "bullets": [
         "On-site design consultation",
         "Custom landscape plans and renderings",
@@ -61,9 +61,9 @@
       "name": "Paver Installation",
       "shortName": "Pavers",
       "icon": "🧱",
-      "image": "/images/pavers-greenridge.png",
+      "image": "/images/pavers-greenridge.jpg",
       "description": "Premium natural stone and concrete paver surfaces for walkways, patios, and pool decks. Built to last in the California sun without shifting or cracking.",
-      "heroText": "Pavers done right — from design to final seal. GreenRidge installs premium paver systems across the South Bay with craftsmanship and materials that stand the test of time.",
+      "heroText": "Expert paver installation from design to final seal. GreenRidge installs premium paver systems across the South Bay with craftsmanship and materials that stand the test of time.",
       "bullets": [
         "Walkway and garden path installation",
         "Patio and outdoor floor systems",
@@ -77,8 +77,8 @@
       "name": "Patio Installation",
       "shortName": "Patios",
       "icon": "☀️",
-      "image": "/images/patio-greenridge.png",
-      "description": "Thoughtfully designed outdoor living floors — built for entertaining, everyday use, and lasting curb appeal. We handle every detail from base prep to final seal.",
+      "image": "/images/patio-greenridge.jpg",
+      "description": "Thoughtfully designed outdoor living floors built for entertaining, everyday use, and lasting curb appeal. We handle every detail from base prep to final seal.",
       "heroText": "A well-designed patio changes how you experience your property. GreenRidge creates custom patios for South Bay homeowners who want beauty, functionality, and durability.",
       "bullets": [
         "Custom patio design and layout planning",
@@ -93,8 +93,8 @@
       "name": "Driveway Installation",
       "shortName": "Driveways",
       "icon": "🛤️",
-      "image": "/images/driveway.png",
-      "description": "Stunning, durable driveways that make a statement from the street. We work with pavers, asphalt borders, and custom edging for a finished, upscale look.",
+      "image": "/images/driveway.jpg",
+      "description": "Stunning, durable driveways that make a statement from the street. We work with pavers, decorative borders, and custom edging for a finished, upscale look.",
       "heroText": "Your driveway sets the tone before anyone reaches your front door. GreenRidge installs custom driveways that blend seamlessly with your landscape and elevate your property's value.",
       "bullets": [
         "Paver driveway design and installation",
@@ -109,9 +109,9 @@
       "name": "Front Yard Landscaping",
       "shortName": "Front Yard",
       "icon": "🏡",
-      "image": "/images/front-yard.png",
+      "image": "/images/front-yard.jpg",
       "description": "First impressions matter. We design and install front yard landscapes that elevate your home's curb appeal with seasonal color, structure, and clean lines.",
-      "heroText": "Curb appeal is the first thing anyone notices. GreenRidge creates polished, well-designed front yard landscapes that make South Bay homes stand out on the block.",
+      "heroText": "Curb appeal is the first thing anyone notices. GreenRidge creates polished, well-designed front yard landscapes that make South Bay homes stand out.",
       "bullets": [
         "Curb appeal design consultation",
         "Custom planting and garden bed design",
@@ -125,9 +125,9 @@
       "name": "Back Yard Landscaping",
       "shortName": "Back Yard",
       "icon": "🌿",
-      "image": "/images/backyard.png",
-      "description": "Turn your backyard into the retreat you've always wanted — custom planting beds, lawn restoration, trees, and borders designed around how you actually live.",
-      "heroText": "Your back yard should be a space you actually want to spend time in. GreenRidge designs and installs custom back yard landscapes for South Bay homeowners — built to look stunning and last for years.",
+      "image": "/images/backyard.jpg",
+      "description": "Transform your backyard into a private retreat with custom planting beds, lawn restoration, trees, and borders designed around how you live.",
+      "heroText": "Your back yard should be a space you want to spend time in. GreenRidge designs and installs custom landscapes for South Bay homeowners, built to look stunning and last for years.",
       "bullets": [
         "Custom landscape design consultation",
         "Garden bed design and installation",
@@ -141,9 +141,9 @@
       "name": "Outdoor Living Spaces",
       "shortName": "Outdoor Living",
       "icon": "🔥",
-      "image": "/images/outdoor-living.png",
-      "description": "Full outdoor environments — pergolas, fire pits, outdoor kitchens, and custom seating. Designed and built so your backyard becomes a true extension of your home.",
-      "heroText": "Outdoor living is more than a trend — it's a lifestyle. GreenRidge designs and builds complete outdoor environments that become the most-used space on your property.",
+      "image": "/images/outdoor-living.jpg",
+      "description": "Complete outdoor environments including pergolas, fire pits, outdoor kitchens, and custom seating areas. Designed and built so your backyard becomes a true extension of your home.",
+      "heroText": "Outdoor living is more than a trend. GreenRidge designs and builds complete outdoor environments that become the most-used space on your property.",
       "bullets": [
         "Pergola and shade structure installation",
         "Fire pit and outdoor fireplace builds",
@@ -199,23 +199,23 @@
   "faqs": [
     {
       "q": "What areas do you serve?",
-      "a": "We serve homeowners throughout San Jose and the South Bay Area — including Los Gatos, Saratoga, Cupertino, Sunnyvale, Santa Clara, Mountain View, Palo Alto, and surrounding communities."
+      "a": "We serve homeowners throughout San Jose and the South Bay Area, including Los Gatos, Saratoga, Cupertino, Sunnyvale, Santa Clara, Mountain View, Palo Alto, and surrounding communities."
     },
     {
       "q": "How do I get a free estimate?",
-      "a": "You can call or text us at (408) 512-3074 or submit the contact form on our website to schedule a free estimate. We'll discuss your project goals, take a look at the space, and provide recommendations based on your vision and budget."
+      "a": "Call or text us at (408) 512-3074 or submit the contact form on our website to schedule a free estimate. We will discuss your project goals, review the space, and provide recommendations based on your vision and budget."
     },
     {
       "q": "What landscaping services do you offer?",
       "a": "GreenRidge Landscape & Design specializes in custom landscaping, patios, pavers, artificial turf, outdoor lighting, planting, backyard renovations, and outdoor living spaces designed for modern California homes."
     },
     {
-      "q": "What's the difference between landscaping and lawn care?",
-      "a": "Lawn care usually focuses on maintenance services like mowing, edging, and fertilizing. Landscaping is more focused on design and installation — including patios, pavers, turf, planting, lighting, drainage, and complete outdoor renovations."
+      "q": "What is the difference between landscaping and lawn care?",
+      "a": "Lawn care focuses on maintenance services like mowing, edging, and fertilizing. Landscaping is focused on design and installation, including patios, pavers, turf, planting, lighting, drainage, and complete outdoor renovations."
     },
     {
-      "q": "When's the best time to start a landscaping project?",
-      "a": "Spring and fall are the most popular seasons, but we work year-round. We recommend booking at least 1–2 weeks out to secure your spot on the schedule."
+      "q": "When is the best time to start a landscaping project?",
+      "a": "Spring and fall are the most popular seasons, but we work year-round. We recommend booking at least one to two weeks out to secure your spot on the schedule."
     },
     {
       "q": "How long does a landscaping project usually take?",
@@ -228,37 +228,37 @@
   ],
   "gallery": [
     {
-      "src": "/images/landscape-design.png",
+      "src": "/images/landscape-design.jpg",
       "alt": "Full property landscape design and installation in San Jose",
       "label": "Landscape Design & Installation",
       "icon": "📐"
     },
     {
-      "src": "/images/outdoor-living.png",
+      "src": "/images/outdoor-living.jpg",
       "alt": "Outdoor living space with pergola and paver patio",
       "label": "Outdoor Living Space",
       "icon": "🔥"
     },
     {
-      "src": "/images/driveway.png",
+      "src": "/images/driveway.jpg",
       "alt": "Paver driveway installation with front yard landscaping",
       "label": "Paver Driveway",
       "icon": "🛤️"
     },
     {
-      "src": "/images/backyard.png",
+      "src": "/images/backyard.jpg",
       "alt": "Back yard landscaping renovation with patio",
       "label": "Back Yard Renovation",
       "icon": "🌿"
     },
     {
-      "src": "/images/front-yard.png",
+      "src": "/images/front-yard.jpg",
       "alt": "Front yard landscaping with custom beds and walkway",
       "label": "Front Yard Landscaping",
       "icon": "🏡"
     },
     {
-      "src": "/images/patio-greenridge.png",
+      "src": "/images/patio-greenridge.jpg",
       "alt": "Custom patio with outdoor seating area",
       "label": "Patio Installation",
       "icon": "☀️"

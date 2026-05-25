@@ -1624,6 +1624,7 @@ nav.breadcrumbs {
   line-height: 1.7;
   margin: 12px 0 16px;
   max-width: 280px;
+  color: #fff;
 }
 .footer-phone {
   display: inline-block;

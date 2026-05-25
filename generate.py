@@ -986,36 +986,26 @@ def make_about():
 </section>
 <section class="section">
   <div class="container">
-    <div class="split-section">
-      <div class="split-img"><img src="/images/Hero.png" alt="{NAME} - locally owned and operated in San Jose, CA" /></div>
-      <div class="split-content">
-        <span class="eyebrow">Who We Are</span>
-        <h2>Built for the South Bay</h2>
-        <p>{NAME} is a locally owned landscaping and outdoor renovation company based at 2557 Bergman Ct, San Jose, CA. We serve residential homeowners throughout Santa Clara and San Mateo Counties.</p>
-        <p>We're not a national franchise - every crew member is local, every estimate is honest, and every job is backed by our 100% satisfaction guarantee.</p>
-        <ul class="check-list">
-          <li>Fully certified and insured in California</li>
-          <li>Locally owned - based in {B['city']}, CA</li>
-          <li>Experienced crews with background checks</li>
-          <li>100% satisfaction guarantee</li>
-          <li>Every project starts with a free on-site consultation</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section section-light">
-  <div class="container">
     <div class="section-header">
-      <span class="eyebrow">Our Promise</span>
-      <h2>The Green Empire Difference</h2>
+      <span class="eyebrow">Who We Are</span>
+      <h2>Built for the South Bay</h2>
     </div>
-    <div class="features-grid">
-      <div class="feature-card">{ICON["pin_lg"]}<h3>Local Expertise</h3><p>We know the South Bay's soil, climate, and neighborhoods. Our recommendations are built for this area.</p></div>
-      <div class="feature-card">{ICON["dollar_lg"]}<h3>Transparent Pricing</h3><p>You'll always know what you're paying before we start. No surprises, no hidden fees.</p></div>
-      <div class="feature-card">{ICON["star_lg"]}<h3>Satisfaction Guaranteed</h3><p>Not happy? We'll make it right. Every service is backed by our 100% guarantee.</p></div>
-      <div class="feature-card">{ICON["ruler_lg"]}<h3>Custom Designs</h3><p>Every project is designed specifically for your property - no templates, no shortcuts, no one-size-fits-all solutions.</p></div>
+    <div class="about-content">
+      <p>{NAME} is a locally owned landscaping and outdoor renovation company based in San Jose, CA. We serve residential homeowners throughout Santa Clara and San Mateo Counties.</p>
+      <p>We're not a national franchise. Every crew member is local, every estimate is honest, and every job is backed by our 100% satisfaction guarantee.</p>
     </div>
+    <div class="about-photos">
+      <img src="/images/about-us-1.jpg" alt="{NAME} team at work" />
+      <img src="/images/about-us-2.jpg" alt="{NAME} landscape project" />
+      <img src="/images/about-us-3.jpg" alt="{NAME} outdoor design" />
+    </div>
+    <ul class="check-list" style="margin-top: 2rem;">
+      <li>Fully certified and insured in California</li>
+      <li>Locally owned - based in {B['city']}, CA</li>
+      <li>Experienced crews with background checks</li>
+      <li>100% satisfaction guarantee</li>
+      <li>Every project starts with a free on-site consultation</li>
+    </ul>
   </div>
 </section>
 <section class="cta-banner">

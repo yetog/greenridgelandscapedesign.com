@@ -11,7 +11,7 @@
     "zip": "95121",
     "hours": "Mon-Sat 8:00 AM - 6:00 PM",
     "domain": "www.greenridgelandscapedesign.com",
-    "zapierWebhook": "",
+    "zapierWebhook": "https://hooks.zapier.com/hooks/catch/26765756/4oe5zkk/",
     "font": "Inter",
     "forms": {
       "notifyEmail": "greenridgelandscapers@gmail.com",
@@ -33,10 +33,9 @@
     "industry": "Landscaping",
     "industryLower": "landscaping",
     "heroSlides": [
-      "/images/landscape-design.jpg",
-      "/images/backyard.jpg",
-      "/images/patio-greenridge.jpg",
-      "/images/outdoor-living.jpg"
+      "/images/hero-new-1.jpg",
+      "/images/hero-new-2.jpg",
+      "/images/hero-new-3.jpg"
     ]
   },
   "services": [

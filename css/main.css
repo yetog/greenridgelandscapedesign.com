@@ -1729,6 +1729,36 @@ nav.breadcrumbs {
 }
 .chat-btn:hover { background: #B5A687; transform: scale(1.08); }
 
+/* ── About Photos Grid ──────────────────────────────────── */
+.about-content {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+}
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+.about-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.about-photos img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.about-photos img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
 /* ══════════════════════════════════════════════════════════
    RESPONSIVE
    ══════════════════════════════════════════════════════════ */
@@ -1762,6 +1792,9 @@ nav.breadcrumbs {
   .nav-links            { display: none; }
   .nav-cta .btn         { display: none; }
   .hamburger            { display: flex; }
+
+  .about-photos         { grid-template-columns: 1fr; }
+  .about-photos img     { height: 220px; }
 
   .stats-grid           { grid-template-columns: repeat(2, 1fr); }
   .stat:nth-child(2)    { border-right: none; }
